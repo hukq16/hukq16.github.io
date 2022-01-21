@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keegan's Blog</title><link>https://hukq16.github.io/</link><description>Recent content on Keegan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Jan 2022 12:59:00 +0000</lastBuildDate><atom:link href="https://hukq16.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>ddd</title><link>https://hukq16.github.io/p/ddd/</link><pubDate>Wed, 19 Jan 2022 12:59:00 +0000</pubDate><guid>https://hukq16.github.io/p/ddd/</guid><description>&lt;img src="https://hukq16.github.io/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" alt="Featured image of post ddd" />&lt;p>&lt;a class="link" href="https://www.zybuluo.com/mdeditor" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keegan's Blog</title><link>https://hukq16.github.io/</link><description>Recent content on Keegan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Jan 2022 12:59:00 +0000</lastBuildDate><atom:link href="https://hukq16.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>ddd</title><link>https://hukq16.github.io/p/ddd/</link><pubDate>Wed, 19 Jan 2022 12:59:00 +0000</pubDate><guid>https://hukq16.github.io/p/ddd/</guid><description>&lt;img src="https://hukq16.github.io/p/ddd/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" alt="Featured image of post ddd" />&lt;p>&lt;a class="link" href="https://www.zybuluo.com/mdeditor" target="_blank" rel="noopener"
 >『Cmd 技术渲染的沙箱页面，点击此处编写自己的文档』&lt;/a>&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;h1 id="cmd-markdown-简明语法手册">Cmd Markdown 简明语法手册&lt;/h1>
@@ -79,8 +79,8 @@
 &lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="9-插入图像">9. 插入图像&lt;/h3>
 &lt;p>使用 &lt;figure
 >
-&lt;a href="https://hukq16.github.io/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" >
-&lt;img src="https://hukq16.github.io/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg"
+&lt;a href="https://hukq16.github.io/%e5%9b%be%e7%89%87%e9%93%be%e6%8e%a5%e5%9c%b0%e5%9d%80" >
+&lt;img src="https://hukq16.github.io/%e5%9b%be%e7%89%87%e9%93%be%e6%8e%a5%e5%9c%b0%e5%9d%80"
 loading="lazy"
 alt="描述">
 &lt;/a>
@@ -89,9 +89,16 @@ alt="描述">
 &lt;p>示例：&lt;/p>
 &lt;p>我的头像&lt;/p>
 &lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 411;
+flex-basis: 987px"
 >
-&lt;a href="https://hukq16.github.io/ssss.png" >
-&lt;img src="https://hukq16.github.io/ssss.png"
+&lt;a href="https://hukq16.github.io/p/ddd/ssss.png" data-size="745x181">
+&lt;img src="https://hukq16.github.io/p/ddd/ssss.png"
+width="745"
+height="181"
+srcset="https://hukq16.github.io/p/ddd/ssss_hu9dba7ecf8e13705bf020cd0c6001702c_45490_480x0_resize_box_3.png 480w, https://hukq16.github.io/p/ddd/ssss_hu9dba7ecf8e13705bf020cd0c6001702c_45490_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="ssss.png">
 &lt;/a>
@@ -100,9 +107,8 @@ alt="ssss.png">
 &lt;h3 id="5-latex-公式">5. LaTeX 公式&lt;/h3>
 &lt;p>$ 表示行内公式：&lt;/p>
 &lt;p>质能守恒方程可以用一个很简洁的方程式 &lt;em>E&lt;/em> = &lt;em>m**c&lt;/em>2 来表达。&lt;/p>
-&lt;p>$$
-\sum_{i=1}^n a_i=0
-$$&lt;/p>
+&lt;p>$$ 表示整行公式：&lt;/p>
+&lt;p>$$ \sum_{i=1}^n a_i=0 $$&lt;/p>
 &lt;p>$$ f(x1, xx, …, xn) = x12 + x22 + ⋯ + xn2 $$&lt;/p>
 &lt;p>$$ \sum^{j-1}&lt;em>{k=0}{\widehat{\gamma}&lt;/em>{kj} z_k} $$&lt;/p>
 &lt;p>访问 &lt;a class="link" href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="noopener"
@@ -199,7 +205,7 @@ $$&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>辛普森悖论</title><link>https://hukq16.github.io/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/</link><pubDate>Tue, 18 Jan 2022 08:27:00 +0000</pubDate><guid>https://hukq16.github.io/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/</guid><description>&lt;p>辛普森悖论指出：存在这样的数据，总体上的统计结果于其每一个子部分的统计结果相反。&lt;/p>
+&lt;/ul></description></item><item><title>辛普森悖论</title><link>https://hukq16.github.io/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/</link><pubDate>Tue, 18 Jan 2022 08:27:00 +0000</pubDate><guid>https://hukq16.github.io/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/</guid><description>&lt;img src="https://hukq16.github.io/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" alt="Featured image of post 辛普森悖论 " />&lt;p>辛普森悖论指出：存在这样的数据，总体上的统计结果于其每一个子部分的统计结果相反。&lt;/p>
 &lt;h2 id="定义">定义&lt;/h2>
 &lt;!-- raw HTML omitted -->
 &lt;table>
@@ -598,40 +604,4 @@ $$&lt;/p></description></item><item><title>Emoji Support</title><link>https://hu
 &lt;p>&lt;strong>N.B.&lt;/strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">.emoji {
 font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}&lt;/code>&lt;/pre>&lt;/div></description></item><item><title/><link>https://hukq16.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hukq16.github.io/p/</guid><description>&lt;h1 id="平滑">平滑&lt;/h1>
-&lt;p>更新时间: January 18, 2022 3:00 PM&lt;/p>
-&lt;h2 id="移动平均">移动平均&lt;/h2>
-&lt;h2 id="指数平滑">指数平滑&lt;/h2>
-&lt;p>用历史数据的线性组合预测下一时间点的值，线性组合的系数随着距离变远按负指数衰减，设衰减系数为$\omega$，计算公式可写为&lt;/p>
-&lt;p>$$
-\hat{x}&lt;em>{t} = k(\omega x&lt;/em>{t} + \omega^{2} x_{t-1} + &amp;hellip;) = k(\sum^{\infty}&lt;em>{j = 0}{\omega^{j+1} x&lt;/em>{t-j}})
-$$&lt;/p>
-&lt;p>考虑到加权平均的系数和应为1，则&lt;/p>
-&lt;p>$$
-k(\sum_{j = 1}^{\infty}{\omega^{j}}) = \frac{k \omega}{1-\omega} = 1
-$$&lt;/p>
-&lt;p>则$k=\frac{1-\omega}{\omega}$，带回原式得&lt;/p>
-&lt;p>$$
-\begin{align*}\hat{x}&lt;em>t &amp;amp;= (1-\omega)(x_t + \omega^2 x&lt;/em>{t-1} + &amp;hellip;) = (1-\omega)\sum^{\infty}&lt;em>{j = 0}{\omega^{j} x&lt;/em>{t-j}} \ &amp;amp;= (1-\omega)x_t + \omega {[(1-\omega) \sum^{\infty}&lt;em>{j = 0}{\omega^{j} x&lt;/em>{t-1-j}}]} \ &amp;amp;= (1-\omega) x_t + \omega \hat{x}_{t-1} \end{align*}
-$$&lt;/p>
-&lt;p>该方法即为指数平滑方法。早期应用中的权重$\omega$是凭借经验选取的，在之后的研究中，发现&lt;a class="link" href="https://www.notion.so/ARIMA-fb99f61e45514da494db1f451938679b" target="_blank" rel="noopener"
->ARIMA(0,1,1)模型&lt;/a>的形式恰好为上述形式，则可以通过ARIMA建模方法估计权重$\omega$，也可用ARIMA模型的充分性检验来判断指数平滑预测是否有意义。&lt;/p>
-&lt;h3 id="预测">预测&lt;/h3>
-&lt;h3 id="优化">优化&lt;/h3>
-&lt;p>为评估指数平滑的效果，可使用平方损失函数（最小化误差平方和SSE）来估计，即估计值与实际值之差的平方和。可通过最小化SSE得到$\omega$的最佳估计。该方法涉及到非线性的最小化问题。&lt;/p>
-&lt;p>$$
-SSE=\sum_{t=1}^{T}{(x_t - \hat{x}&lt;em>{t|t-1})^2} = \sum&lt;/em>{t=1}^{T}{e_t^2}
-$$&lt;/p>
-&lt;h2 id="双指数平滑">双指数平滑&lt;/h2>
-&lt;p>当数据有趋势时，简单的指数平滑效果不佳，在这种情况下，可增加一个线性的趋势增长项$b_t$，也对$b_t$做指数平滑。为方便起见，令&lt;a class="link" href="https://www.notion.so/1e3897bf6dd84d76a92d50b404d4fa3f" target="_blank" rel="noopener"
->指数平滑&lt;/a>中的$(1-\omega) = \alpha$,相关公式为&lt;/p>
-&lt;p>$$
-\begin{align*} \hat{x}&lt;em>t &amp;amp;= \alpha x_t + (1-\alpha)(\hat{x}&lt;/em>{t-1} + b_{t-1}) \ b_{t} &amp;amp;= \beta(\hat{x}&lt;em>t - \hat{x}&lt;/em>{t-1}) + (1-\beta)b_{t-1} \end{align*}
-$$&lt;/p>
-&lt;p>其中，$\alpha$为数据平滑因子，$\beta$为趋势平滑因子。&lt;/p>
-&lt;p>由此可得出$\hat{x}_t$的梯度（增长率）为&lt;/p>
-&lt;p>$$
-\hat{x}&lt;em>t' = \alpha x_t + (1-\alpha) \hat{x}&lt;/em>{t-1}'
-$$&lt;/p>
-&lt;h2 id="三重指数平滑">三重指数平滑&lt;/h2>
-&lt;p>三重指数平滑应用了三次指数平滑，这通常用于要从所研究的时间序列中去除三个高频信号的时候。一般认为第三次指数平滑可以表示季节性因子，即&lt;/p></description></item></channel></rss>
+}&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
