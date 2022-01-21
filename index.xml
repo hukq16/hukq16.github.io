@@ -1,4 +1,249 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keegan's Blog</title><link>https://hukq16.github.io/</link><description>Recent content on Keegan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hukq16.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>dddd</title><link>https://hukq16.github.io/p/dddd/</link><pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate><guid>https://hukq16.github.io/p/dddd/</guid><description>&lt;p>ddd&lt;/p></description></item><item><title>Chinese Test</title><link>https://hukq16.github.io/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://hukq16.github.io/p/test-chinese/</guid><description>&lt;img src="https://hukq16.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">正文测试&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keegan's Blog</title><link>https://hukq16.github.io/</link><description>Recent content on Keegan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Jan 2022 12:59:00 +0000</lastBuildDate><atom:link href="https://hukq16.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>ddd</title><link>https://hukq16.github.io/p/ddd/</link><pubDate>Wed, 19 Jan 2022 12:59:00 +0000</pubDate><guid>https://hukq16.github.io/p/ddd/</guid><description>&lt;p>&lt;a class="link" href="https://www.zybuluo.com/mdeditor" target="_blank" rel="noopener"
+>『Cmd 技术渲染的沙箱页面，点击此处编写自己的文档』&lt;/a>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h1 id="cmd-markdown-简明语法手册">Cmd Markdown 简明语法手册&lt;/h1>
+&lt;p>标签： Cmd-Markdown&lt;/p>
+&lt;hr>
+&lt;h1 id="1-斜体和粗体">1. 斜体和粗体&lt;/h1>
+&lt;p>使用 * 和 ** 表示斜体和粗体。&lt;/p>
+&lt;p>示例：$ \int_{x}^{y}{abcdx} $&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>aaaa&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>cccc&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;a class="link" href="http://www.baidu.com" target="_blank" rel="noopener"
+>http://www.baidu.com&lt;/a>&lt;/p>
+&lt;p>这是 &lt;em>斜体&lt;/em>，这是 &lt;strong>粗体&lt;/strong>。&lt;/p>
+&lt;p>[video is not supported]&lt;/p>
+&lt;h2 id="2-分级标题">2. 分级标题&lt;/h2>
+&lt;p>使用 === 表示一级标题，使用 — 表示二级标题。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-plain" data-lang="plain"> 这是一个一级标题
+============================
+这是一个二级标题
+--------------------------------------------------
+### 这是一个三级标题
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。&lt;/p>
+&lt;h3 id="3-外链接">3. 外链接&lt;/h3>
+&lt;p>使用 &lt;a class="link" href="%e9%93%be%e6%8e%a5%e5%9c%b0%e5%9d%80" >描述&lt;/a> 为文字增加外链接。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;p>这是去往 &lt;a class="link" href="http://ghosertblog.github.com/" target="_blank" rel="noopener"
+>本人博客&lt;/a> 的链接。&lt;/p>
+&lt;h3 id="4-无序列表">4. 无序列表&lt;/h3>
+&lt;p>使用 *，+，- 表示无序列表。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>无序列表项 一&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>无序列表项 二&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>无序列表项 三&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-有序列表">5. 有序列表&lt;/h3>
+&lt;p>使用数字和点表示有序列表。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>有序列表项 一&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>有序列表项 二&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>有序列表项 三&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="6-文字引用">6. 文字引用&lt;/h3>
+&lt;p>使用 &amp;gt; 表示文字引用。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;blockquote>
+&lt;p>野火烧不尽，春风吹又生。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="7-行内代码块">7. 行内代码块&lt;/h3>
+&lt;p>使用 &lt;code>代码&lt;/code> 表示行内代码块。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;p>让我们聊聊 &lt;code>html&lt;/code>。&lt;/p>
+&lt;h3 id="8-代码块">8. 代码块&lt;/h3>
+&lt;p>使用 四个缩进空格 表示代码块。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-plain" data-lang="plain"> 这是一个代码块，此行左侧有四个不可见的空格。
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="9-插入图像">9. 插入图像&lt;/h3>
+&lt;p>使用 &lt;figure
+>
+&lt;a href="https://hukq16.github.io/%e5%9b%be%e7%89%87%e9%93%be%e6%8e%a5%e5%9c%b0%e5%9d%80" >
+&lt;img src="https://hukq16.github.io/%e5%9b%be%e7%89%87%e9%93%be%e6%8e%a5%e5%9c%b0%e5%9d%80"
+loading="lazy"
+alt="描述">
+&lt;/a>
+&lt;figcaption>描述&lt;/figcaption>
+&lt;/figure> 插入图像。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;p>我的头像&lt;/p>
+&lt;p>&lt;figure
+>
+&lt;a href="https://hukq16.github.io/ssss.png" >
+&lt;img src="https://hukq16.github.io/ssss.png"
+loading="lazy"
+alt="ssss.png">
+&lt;/a>
+&lt;figcaption>ssss.png&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="5-latex-公式">5. LaTeX 公式&lt;/h3>
+&lt;p>$ 表示行内公式：&lt;/p>
+&lt;p>质能守恒方程可以用一个很简洁的方程式 &lt;em>E&lt;/em> = &lt;em>m**c&lt;/em>2 来表达。&lt;/p>
+&lt;p>$$ 表示整行公式：&lt;/p>
+&lt;p>$$
+\sum_{i=1}^n a_i=0
+$$&lt;/p>
+&lt;p>$$ f(x1, xx, …, xn) = x12 + x22 + ⋯ + xn2 $$&lt;/p>
+&lt;p>$$ \sum^{j-1}&lt;em>{k=0}{\widehat{\gamma}&lt;/em>{kj} z_k} $$&lt;/p>
+&lt;p>访问 &lt;a class="link" href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="noopener"
+>MathJax&lt;/a> 参考更多使用方法。&lt;/p>
+&lt;h3 id="6-加强的代码块">6. 加强的代码块&lt;/h3>
+&lt;p>支持四十一种编程语言的语法高亮的显示，行号显示。&lt;/p>
+&lt;p>非代码示例：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-plain" data-lang="plain"> $ sudo apt-get install vim-gnome
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Python 示例：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-plain" data-lang="plain"> @requires_authorizationdef somefunc(param1=&amp;#39;&amp;#39;, param2=0): &amp;#39;&amp;#39;&amp;#39;A docstring&amp;#39;&amp;#39;&amp;#39; if param1 &amp;gt; param2: # interesting print &amp;#39;Greater&amp;#39; return (param2 - param1 + 1) or Noneclass SomeClass: pass&amp;gt;&amp;gt;&amp;gt; message = &amp;#39;&amp;#39;&amp;#39;interpreter... prompt&amp;#39;&amp;#39;&amp;#39;
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>JavaScript 示例：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-plain" data-lang="plain"> /*** nth element in the fibonacci series.* @param n &amp;gt;= 0* @return the nth element, &amp;gt;= 0.*/function fib(n) { var a = 1, b = 1; var tmp; while (--n &amp;gt;= 0) { tmp = a; a += b; b = tmp; } return a;}document.write(fib(10));
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="12-表格支持">12. 表格支持&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>table&lt;/th>
+&lt;th>&lt;strong>price&lt;/strong>&lt;/th>
+&lt;th>&lt;em>number&lt;/em>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>computer&lt;/td>
+&lt;td>&lt;!-- raw HTML omitted -->1600&lt;!-- raw HTML omitted -->&lt;/td>
+&lt;td>&lt;del>5&lt;/del>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>moblie&lt;/td>
+&lt;td>$ \sum{x} $&lt;/td>
+&lt;td>&lt;code>12&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>管线&lt;/td>
+&lt;td>(2022-01-20 → )&lt;/td>
+&lt;td>&lt;a class="link" href="http://www.bilibili.com" target="_blank" rel="noopener"
+>234&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="16-待办事宜-todo-列表">16. 待办事宜 Todo 列表&lt;/h3>
+&lt;p>使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法，例如：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-plain" data-lang="plain"> - [ ] **Cmd Markdown 开发**
+- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+- [ ] 支持以 PDF 格式导出文稿
+- [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
+- [x] 改进 LaTex 功能
+- [x] 修复 LaTex 公式渲染问题
+- [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
+- [ ] **七月旅行准备**
+- [ ] 准备邮轮上需要携带的物品
+- [ ] 浏览日本免税店的物品
+- [x] 购买蓝宝石公主号七月一日的船票
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>对应显示如下待办事宜 Todo 列表：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> &lt;strong>Cmd Markdown 开发&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> 支持以 PDF 格式导出文稿&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> 新增Todo列表功能 &lt;a class="link" href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments" target="_blank" rel="noopener"
+>语法参考&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> 改进 LaTex 功能&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> 修复 LaTex 公式渲染问题&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> 新增 LaTex 公式编号功能 &lt;a class="link" href="http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers" target="_blank" rel="noopener"
+>语法参考&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> &lt;strong>七月旅行准备&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> 准备邮轮上需要携带的物品&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> 浏览日本免税店的物品&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> 购买蓝宝石公主号七月一日的&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>辛普森悖论</title><link>https://hukq16.github.io/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/</link><pubDate>Tue, 18 Jan 2022 08:27:00 +0000</pubDate><guid>https://hukq16.github.io/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/</guid><description>&lt;p>辛普森悖论指出：存在这样的数据，总体上的统计结果于其每一个子部分的统计结果相反。&lt;/p>
+&lt;h2 id="定义">定义&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>患者&lt;/th>
+&lt;th>服药痊愈患者数&lt;/th>
+&lt;th>服药痊愈率（%）&lt;/th>
+&lt;th>未服药痊愈患者数&lt;/th>
+&lt;th>未服药痊愈率（%）&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>男性患者&lt;/td>
+&lt;td>81/87&lt;/td>
+&lt;td>93&lt;/td>
+&lt;td>234/270&lt;/td>
+&lt;td>87&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>女性患者&lt;/td>
+&lt;td>192/263&lt;/td>
+&lt;td>73&lt;/td>
+&lt;td>55/80&lt;/td>
+&lt;td>69&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>合计&lt;/td>
+&lt;td>273/350&lt;/td>
+&lt;td>78&lt;/td>
+&lt;td>289/350&lt;/td>
+&lt;td>83&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>如上表所示，男性患者中，服药患者痊愈率比未服药患者痊愈率要高，女性患者中也是如此。但是对于全体受试者而言，未服药痊愈率比服药痊愈率要高。&lt;/p>
+&lt;h2 id="直观解释">直观解释&lt;/h2>
+&lt;p>男性患者中，未服药患者数比服药患者数要多；女性患者中，服药患者数比未服药患者数要多。女性患者比男性患者更倾向于被选中服用药物，但是在自然的情况下男女比例为1：1。&lt;/p>
+&lt;p>假设已知另外一个事实：雌激素对患者痊愈有负面效应，即性别对于痊愈率有影响。&lt;/p>
+&lt;p>从直观上可以感受到这次实验总体的结果是不准确的。更进一步的解释为：女性是与用药和未痊愈都相关的共同因素。因此在评估用药与是否痊愈的关系时，需要避免性别对结果的影响。&lt;/p>
+&lt;h2 id="scm解释">SCM解释&lt;/h2>
+&lt;!-- raw HTML omitted --></description></item><item><title>dddd</title><link>https://hukq16.github.io/p/dddd/</link><pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate><guid>https://hukq16.github.io/p/dddd/</guid><description>&lt;p>ddd&lt;/p></description></item><item><title>Chinese Test</title><link>https://hukq16.github.io/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://hukq16.github.io/p/test-chinese/</guid><description>&lt;img src="https://hukq16.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">正文测试&lt;/h2>
 &lt;p>而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。&lt;/p>
 &lt;p>奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。&lt;/p>
 &lt;h2 id="引用">引用&lt;/h2>
