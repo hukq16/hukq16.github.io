@@ -3,7 +3,7 @@ categories:
 - 因果推断
 date: '2022-01-19T12:59:00.000Z'
 description: just a test
-image: null
+image: front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg
 showToc: true
 tags:
 - 因果推断
