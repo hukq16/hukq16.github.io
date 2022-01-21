@@ -79,8 +79,8 @@
 &lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="9-插入图像">9. 插入图像&lt;/h3>
 &lt;p>使用 &lt;figure
 >
-&lt;a href="https://hukq16.github.io/%e5%9b%be%e7%89%87%e9%93%be%e6%8e%a5%e5%9c%b0%e5%9d%80" >
-&lt;img src="https://hukq16.github.io/%e5%9b%be%e7%89%87%e9%93%be%e6%8e%a5%e5%9c%b0%e5%9d%80"
+&lt;a href="https://hukq16.github.io/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" >
+&lt;img src="https://hukq16.github.io/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg"
 loading="lazy"
 alt="描述">
 &lt;/a>
@@ -100,7 +100,6 @@ alt="ssss.png">
 &lt;h3 id="5-latex-公式">5. LaTeX 公式&lt;/h3>
 &lt;p>$ 表示行内公式：&lt;/p>
 &lt;p>质能守恒方程可以用一个很简洁的方程式 &lt;em>E&lt;/em> = &lt;em>m**c&lt;/em>2 来表达。&lt;/p>
-&lt;p>$$ 表示整行公式：&lt;/p>
 &lt;p>$$
 \sum_{i=1}^n a_i=0
 $$&lt;/p>
@@ -271,7 +270,8 @@ loading="lazy"
 alt="Photo by Florian Klauer on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Florian Klauer on Unsplash&lt;/figcaption>
-&lt;/figure> &lt;figure
+&lt;/figure>&lt;br>
+&lt;figure
 class="gallery-image"
 style="
 flex-grow: 149;
