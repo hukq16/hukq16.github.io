@@ -8,7 +8,8 @@ showToc: true
 tags:
 - 因果推断
 - 格兰杰因果
-title: 又一个测试
+- 时间序列
+title: 格兰杰因果
 
 ---
 

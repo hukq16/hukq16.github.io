@@ -2,7 +2,7 @@
 categories:
 - 因果推断
 date: '2022-01-18T08:27:00.000Z'
-description: 本文介绍了辛普森悖论的相关信息
+description: 辛普森悖论是统计因果发展的基础，本文介绍了辛普森悖论的相关信息
 image: front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg
 showToc: true
 tags:
