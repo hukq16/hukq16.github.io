@@ -25,9 +25,9 @@ title: 格兰杰因果
 
 考虑以下两个向量自回归(VAR)模型:
 
-$$
-Y_{t+1} = \sum^{m-1}_{j=0}{\alpha_{j} Y_{t-j}} + \varepsilon_{Y,t+1} 
-$$
+\begin{align}
+ Y_{t+1} & = \sum^{m-1}{j  = 0}{\alpha{j} Y_{t-j}} + \varepsilon_{Y,t+1} 
+\end{align}
 
 $$ Y_{t+1} = \sum_{j = 0}^{m-1}{a_j X_{t-j}} + \sum_{j = 0}^{m - 1}{b_j Y_{t - j}} + \varepsilon _{Y|X,t+1} $$
 
