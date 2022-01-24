@@ -1,15 +1,15 @@
 <!doctype html><html lang=en-us>
 <head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="介绍了结构因果模型的相关理论"><title>再来一个测试</title>
-<link rel=canonical href=https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>
-<link rel=stylesheet href=/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css><meta property="og:title" content="再来一个测试">
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="介绍了结构因果模型的相关理论"><title>结构因果模型SCM</title>
+<link rel=canonical href=https://hukq16.github.io/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/>
+<link rel=stylesheet href=/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css><meta property="og:title" content="结构因果模型SCM">
 <meta property="og:description" content="介绍了结构因果模型的相关理论">
-<meta property="og:url" content="https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/">
+<meta property="og:url" content="https://hukq16.github.io/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/">
 <meta property="og:site_name" content="Keegan's Blog">
-<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="SCM"><meta property="article:tag" content="格兰杰因果"><meta property="article:published_time" content="2022-01-24T05:00:00+00:00"><meta property="article:modified_time" content="2022-01-24T05:00:00+00:00"><meta property="og:image" content="https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg">
-<meta name=twitter:title content="再来一个测试">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="SCM"><meta property="article:tag" content="因果推断"><meta property="article:published_time" content="2022-01-24T05:00:00+00:00"><meta property="article:modified_time" content="2022-01-24T05:00:00+00:00"><meta property="og:image" content="https://hukq16.github.io/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg">
+<meta name=twitter:title content="结构因果模型SCM">
 <meta name=twitter:description content="介绍了结构因果模型的相关理论"><meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg">
+<meta name=twitter:image content="https://hukq16.github.io/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg">
 </head>
 <body class=article-page>
 <script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
@@ -68,8 +68,8 @@ on-phone--column extended">
 <article class="has-image main-article">
 <header class=article-header>
 <div class=article-image>
-<a href=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>
-<img src=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu3d9c593b2718c953a3b478dc81df7359_66254_800x0_resize_q75_box.jpg srcset="/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu3d9c593b2718c953a3b478dc81df7359_66254_800x0_resize_q75_box.jpg 800w, /p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu3d9c593b2718c953a3b478dc81df7359_66254_1600x0_resize_q75_box.jpg 1600w" width=800 height=533 loading=lazy alt="Featured image of post 再来一个测试">
+<a href=/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/>
+<img src=/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu647407b572b25db5ca74679d9cdebf7b_26451_800x0_resize_q75_box.jpg srcset="/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu647407b572b25db5ca74679d9cdebf7b_26451_800x0_resize_q75_box.jpg 800w, /p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu647407b572b25db5ca74679d9cdebf7b_26451_1600x0_resize_q75_box.jpg 1600w" width=800 height=533 loading=lazy alt="Featured image of post 结构因果模型SCM">
 </a>
 </div>
 <div class=article-details>
@@ -79,7 +79,7 @@ on-phone--column extended">
 </a>
 </header>
 <h2 class=article-title>
-<a href=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>再来一个测试</a>
+<a href=/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/>结构因果模型SCM</a>
 </h2>
 <h3 class=article-subtitle>
 介绍了结构因果模型的相关理论
@@ -110,7 +110,7 @@ on-phone--column extended">
 <footer class=article-footer>
 <section class=article-tags>
 <a href=/tags/scm/>SCM</a>
-<a href=/tags/%E6%A0%BC%E5%85%B0%E6%9D%B0%E5%9B%A0%E6%9E%9C/>格兰杰因果</a>
+<a href=/tags/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD/>因果推断</a>
 </section>
 <section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
 <span>Licensed under CC BY-NC-SA 4.0</span>
@@ -123,12 +123,22 @@ on-phone--column extended">
 <div class=related-contents>
 <div class="flex article-list--tile">
 <article class=has-image>
-<a href=/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/>
+<a href=/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/>
 <div class=article-image>
-<img src=/p/%E7%BB%93%E6%9E%84%E5%9B%A0%E6%9E%9C%E6%A8%A1%E5%9E%8Bscm/_hu647407b572b25db5ca74679d9cdebf7b_26451_9283c787f75547a4a3425793d3a4ff2d.jpg width=250 height=150 loading=lazy alt="Featured image of post 结构因果模型SCM" data-hash="md5-xoMpSpOm2fjr9K6Beu8cbg==">
+<img src=/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/_hu0b8fffee7412ca605bcfe939d4c71911_168365_d17e6768c930e0787b621f43019340d1.jpg width=250 height=150 loading=lazy alt="Featured image of post 辛普森悖论 " data-hash="md5-lFvF6j5dojt1c1VT8GHHWg==">
 </div>
 <div class=article-details>
-<h2 class=article-title>结构因果模型SCM</h2>
+<h2 class=article-title>辛普森悖论 </h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>
+<div class=article-image>
+<img src=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/_hu3d9c593b2718c953a3b478dc81df7359_66254_fab06eacdd5add457aad29b2f880b33f.jpg width=250 height=150 loading=lazy alt="Featured image of post 再来一个测试" data-hash="md5-pHYzfBd/RwVyKKR1opzpLA==">
+</div>
+<div class=article-details>
+<h2 class=article-title>再来一个测试</h2>
 </div>
 </a>
 </article>
@@ -139,16 +149,6 @@ on-phone--column extended">
 </div>
 <div class=article-details>
 <h2 class=article-title>格兰杰因果</h2>
-</div>
-</a>
-</article>
-<article class=has-image>
-<a href=/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/>
-<div class=article-image>
-<img src=/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/_hu0b8fffee7412ca605bcfe939d4c71911_168365_d17e6768c930e0787b621f43019340d1.jpg width=250 height=150 loading=lazy alt="Featured image of post 辛普森悖论 " data-hash="md5-lFvF6j5dojt1c1VT8GHHWg==">
-</div>
-<div class=article-details>
-<h2 class=article-title>辛普森悖论 </h2>
 </div>
 </a>
 </article>
