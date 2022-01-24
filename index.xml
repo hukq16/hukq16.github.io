@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keegan's Blog</title><link>https://hukq16.github.io/</link><description>Recent content on Keegan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Jan 2022 04:18:00 +0000</lastBuildDate><atom:link href="https://hukq16.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>又一个测试</title><link>https://hukq16.github.io/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 24 Jan 2022 04:18:00 +0000</pubDate><guid>https://hukq16.github.io/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</guid><description>&lt;img src="https://hukq16.github.io/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" alt="Featured image of post 又一个测试" />&lt;h1 id="granger因果指数gci">Granger因果指数(GCI)&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keegan's Blog</title><link>https://hukq16.github.io/</link><description>Recent content on Keegan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Jan 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://hukq16.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>再来一个测试</title><link>https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 24 Jan 2022 05:00:00 +0000</pubDate><guid>https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</guid><description>&lt;img src="https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" alt="Featured image of post 再来一个测试" />&lt;h2 id="定义">定义&lt;/h2>
+&lt;p>设U为外生变量的集合。外生变量属于模型外部，不必解释他们变化的原因。&lt;/p>
+&lt;p>设V为内生变量的集合，模型中每一个内生变量都至少是一个外生变量的后代。&lt;/p>
+&lt;p>外生变量不是任何其他变量的后代，在图中表现为一个根节点。&lt;/p>
+&lt;p>定义函数$ f $&lt;/p>
+&lt;p>$$ f = {f_{X}:W_{X} \to X | X \in V} $$&lt;/p>
+&lt;p>其中，$ W_{X} \subseteq (U \cup V)-{X} $，即函数$ f $根据模型其他变量的值给变量X赋值。&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>如果知道每个外生变量的值，那么利用函数$ f_x \in f $，就能完全确定内生变量的值&lt;/p>
+&lt;p>[child_page is not supported]&lt;/p></description></item><item><title>又一个测试</title><link>https://hukq16.github.io/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 24 Jan 2022 04:18:00 +0000</pubDate><guid>https://hukq16.github.io/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</guid><description>&lt;img src="https://hukq16.github.io/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg" alt="Featured image of post 又一个测试" />&lt;h1 id="granger因果指数gci">Granger因果指数(GCI)&lt;/h1>
 &lt;p>由诺贝尔奖得主Granger提出的一种”因果关系”分析模型,在金融,自然,医学领域得到普遍使用.&lt;/p>
 &lt;p>基本思想是:若采用时间序列X和Y的历史信息对Y进行预测, 优于仅采用Y的历史信息对Y进行预测的结果, 即时间序列X有助于解释时间序列Y的未来变化趋势, 那么时间序列X是时间序列Y的&lt;strong>Granger原因&lt;/strong>.(注意:并不能说明确实存在因果关系)&lt;/p>
 &lt;p>该模型通过随机过程的线性回归模型实现.其分析的前提是&lt;!-- raw HTML omitted -->&lt;strong>时间序列为平稳序列&lt;/strong>&lt;!-- raw HTML omitted -->,否则可能出现虚假因果.&lt;/p>

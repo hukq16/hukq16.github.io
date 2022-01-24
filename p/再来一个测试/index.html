@@ -1,0 +1,210 @@
+<!doctype html><html lang=en-us>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="介绍了结构因果模型的相关理论"><title>再来一个测试</title>
+<link rel=canonical href=https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>
+<link rel=stylesheet href=/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css><meta property="og:title" content="再来一个测试">
+<meta property="og:description" content="介绍了结构因果模型的相关理论">
+<meta property="og:url" content="https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/">
+<meta property="og:site_name" content="Keegan's Blog">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="SCM"><meta property="article:tag" content="格兰杰因果"><meta property="article:published_time" content="2022-01-24T05:00:00+00:00"><meta property="article:modified_time" content="2022-01-24T05:00:00+00:00"><meta property="og:image" content="https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg">
+<meta name=twitter:title content="再来一个测试">
+<meta name=twitter:description content="介绍了结构因果模型的相关理论"><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://hukq16.github.io/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36.jpg">
+</head>
+<body class=article-page>
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+on-phone--column extended">
+<aside class="sidebar left-sidebar sticky">
+<button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label=切换菜单>
+<span class=hamburger-box>
+<span class=hamburger-inner></span>
+</span>
+</button>
+<header class=site-info>
+<figure class=site-avatar>
+<img src=/img/logo_hu95f572519a9dd1afce73a893207603fc_50988_300x0_resize_q75_box.jpg width=300 height=300 class=site-logo loading=lazy alt=Avatar>
+<span class=emoji>💊</span>
+</figure>
+<h1 class=site-name><a href=/>Keegan's Blog</a></h1>
+<h2 class=site-description>一些记录</h2><ol class=social-menu>
+<li>
+<a href=https://github.com/hukq16 target=_blank title=GitHub><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+</a>
+</li>
+</ol></header>
+<ol class=menu id=main-menu>
+<li>
+<a href=/ target=_blank><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
+<span>Home</span>
+</a>
+</li>
+<li>
+<a href=/about/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>
+<span>About</span>
+</a>
+</li>
+<li>
+<a href=/archives/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+<span>Archives</span>
+</a>
+</li>
+<li>
+<a href=/search/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href=/links/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M10 14a3.5 3.5.0 005 0l4-4a3.5 3.5.0 00-5-5l-.5.5"/><path d="M14 10a3.5 3.5.0 00-5 0l-4 4a3.5 3.5.0 005 5l.5-.5"/></svg>
+<span>Links</span>
+</a>
+</li>
+<li id=dark-mode-toggle><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<span>暗色模式</span>
+</li>
+</ol>
+</aside>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>
+<img src=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu3d9c593b2718c953a3b478dc81df7359_66254_800x0_resize_q75_box.jpg srcset="/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu3d9c593b2718c953a3b478dc81df7359_66254_800x0_resize_q75_box.jpg 800w, /p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/front_cover_b07d8ce2-d762-41a4-8e93-c19e50beee36_hu3d9c593b2718c953a3b478dc81df7359_66254_1600x0_resize_q75_box.jpg 1600w" width=800 height=533 loading=lazy alt="Featured image of post 再来一个测试">
+</a>
+</div>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD/>
+因果推断
+</a>
+</header>
+<h2 class=article-title>
+<a href=/p/%E5%86%8D%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>再来一个测试</a>
+</h2>
+<h3 class=article-subtitle>
+介绍了结构因果模型的相关理论
+</h3>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Jan 24, 2022</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+阅读时长: 1 分钟
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<h2 id=定义>定义</h2>
+<p>设U为外生变量的集合。外生变量属于模型外部，不必解释他们变化的原因。</p>
+<p>设V为内生变量的集合，模型中每一个内生变量都至少是一个外生变量的后代。</p>
+<p>外生变量不是任何其他变量的后代，在图中表现为一个根节点。</p>
+<p>定义函数$ f $</p>
+<p>$$ f = {f_{X}:W_{X} \to X | X \in V} $$</p>
+<p>其中，$ W_{X} \subseteq (U \cup V)-{X} $，即函数$ f $根据模型其他变量的值给变量X赋值。</p>
+<p>如果知道每个外生变量的值，那么利用函数$ f_x \in f $，就能完全确定内生变量的值</p>
+<p>[child_page is not supported]</p>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/scm/>SCM</a>
+<a href=/tags/%E6%A0%BC%E5%85%B0%E6%9D%B0%E5%9B%A0%E6%9E%9C/>格兰杰因果</a>
+</section>
+<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span>
+</section>
+</footer>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
+</article>
+<aside class=related-contents--wrapper>
+<h2 class=section-title>相关文章</h2>
+<div class=related-contents>
+<div class="flex article-list--tile">
+<article class=has-image>
+<a href=/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/>
+<div class=article-image>
+<img src=/p/%E5%8F%88%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/_hu9081692ee0d95b681843eb11ef4e0737_73199_1c4491738ab588bcbd706561ec7c535e.jpg width=250 height=150 loading=lazy alt="Featured image of post 又一个测试" data-hash="md5-tWcFZ9GJ3nNtYfr68+TuTw==">
+</div>
+<div class=article-details>
+<h2 class=article-title>又一个测试</h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/>
+<div class=article-image>
+<img src=/p/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/_hub4db4ff62e9002f91a8f3a1fcfd00dee_164455_5b4837761d3a5736cb717af51d53554c.jpg width=250 height=150 loading=lazy alt="Featured image of post 辛普森悖论 " data-hash="md5-0YMFYzyzp5etPRbc31PKMA==">
+</div>
+<div class=article-details>
+<h2 class=article-title>辛普森悖论 </h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/p/ddd/>
+<div class=article-image>
+<img src=/p/ddd/_hu5b69303446fd3d2de3d67e577665598a_66808_96c4bcaf896be6557843278332bac81b.jpg width=250 height=150 loading=lazy alt="Featured image of post ddd" data-hash="md5-/mqlHGpvzr/y6dqij4duQQ==">
+</div>
+<div class=article-details>
+<h2 class=article-title>ddd</h2>
+</div>
+</a>
+</article>
+</div>
+</div>
+</aside>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2020 -
+2022 Keegan's Blog
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.6.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</body>
+</html>
